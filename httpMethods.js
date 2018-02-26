@@ -18,9 +18,9 @@ var db = [{
 
 //here's a quick, non-technical rundown of the most common ones
 //get - grabs data or file from server. Typically used to read data from a database. Can't send a req.body with it
-//post - sends data to server. Think about authenicating a password. CAN send a req.body with it
+//post - sends data to server. Think about authenicating a password. CAN send a req.body with it. Used for inserting data.
 //delete - sends data to server. Typically used to delete a value in a database. CAN send a req.body with it. 
-//put - sends data to server. Typically used to update a value in the database. 
+//put - sends data to server. Typically used to update a value in the database (the value is already in the database, you are just changing it) 
 
 //checkout https://zellwk.com/blog/crud-express-mongodb/ for some ideas about how it works. Don't worry about the database. We're
 //mimicking it with the var db.
