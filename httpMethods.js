@@ -28,7 +28,8 @@ var db = [{
 //feel free to only utilize these three - get will read data, post will update/inject data/ and delete will remove data 
 
 //use all 4 methods to mimic the correct functionality with a database. Your database will be the variable {var}
-//USE THE SAME ROUTE FOR ALL OF THEM. It's a common design pattern. 
+//USE THE SAME ROUTE FOR ALL OF THEM. It's a common design pattern. You'll use postman's form data to pass that data
+//to your server, which will extract that using req.body. If that doesn't make sense, please ask!!
 
 //Some extra info - You'll use postman to make requests to your server. You'll make a route and a response i.e.
   //app.post("/user", (req. res)=>{ ...
