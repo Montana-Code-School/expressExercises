@@ -10,7 +10,7 @@ var db = [{
 }];
 
 //copy the boilerplate from reqRes.js
-//create some fake data (an array of object), set it equal to a const. 
+//create some fake data (an array of object), set it equal to a var. 
 
 //in reqRes.js we utilized the "post" method instead of the "get"
 //These are called different http methods - and your server can use them
